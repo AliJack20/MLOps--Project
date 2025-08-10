@@ -25,8 +25,8 @@ class DataPrePorcessStrategy(DataStrategy):
             data =  data.drop(
                 [
                     "order_approved_at",
-                    "ordered_delivered_carrier_date",
-                    "ordered_delivered_customer_date",
+                    "order_delivered_carrier_date",
+                    "order_delivered_customer_date",
                     "order_estimated_delivery_date",
                     "order_purchase_timestamp",
                 ],
